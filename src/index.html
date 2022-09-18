@@ -13,25 +13,44 @@
     <script src="https://kit.fontawesome.com/35d63e73a7.js" crossorigin="anonymous"></script>
 
 </head>
-<body class="bg-slate-100 mx-8 my-5">
-    <!-- Nav Section Starts Here -->
-    <nav class="flex justify-between items-center mb-4">
+<body class="bg-slate-100">
+    <!-- Top Section Starts Here -->
+    <div class="mx-8 my-5 flex justify-between items-center mb-4">
         <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl" href="">
             <box-icon name='menu-alt-left'></box-icon>
         </a>
         <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl" href="">
             <box-icon class="bg-white rounded-full" type='solid' name='cart-download'></box-icon>
         </a>
-    </nav>
+    </div>
+    <!-- Top section ends here -->
 
-    <!-- Nav section ends here -->
+    <!-- Nav Starts Here -->
+    <nav class="flex items-center justify-between bg-white fixed bottom-0 left-0 w-full px-11 py-3 z-10 rounded-t-3xl">
+        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
+            <box-icon name='home-alt-2' ></box-icon>
+        </a>
+
+        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
+            <box-icon name='grid-alt'></box-icon>
+        </a>
+
+        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
+            <box-icon name='message-square-detail'></box-icon>
+        </a>
+
+        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
+            <box-icon name='user'></box-icon>
+        </a>
+    </nav>
+    <!-- Nav Ends Here -->
 
     <!-- Home section starts here -->
 
         <!-- SearchBox Starts -->
-        <div class="flex items-center relative mb-4 w-full">
+        <div class="mx-8 my-5 flex items-center relative mb-4">
             <box-icon class="absolute ml-4" name='search-alt-2'></box-icon>
-            <input class="w-full py-3 rounded-md pl-12 focus:outline-none focus:text-black shadow-sm focus:ring-1" type="text" placeholder="Search">
+            <input class="py-3 rounded-md pl-12 focus:outline-none focus:text-black shadow-sm focus:ring-1 w-full" type="text" placeholder="Search">
             <a class="flex items-center text-white bg-gray-900 rounded p-4 ml-1" href="">
                 <i class="fa-solid fa-bars-progress first-letter:"></i>
             </a>
@@ -39,7 +58,7 @@
         <!-- SearchBox Ends -->
 
         <!-- Features Starts -->
-        <div class="bg-gradient-to-r from-sky-500 to-indigo-500 text-center justify-between rounded-md px-6 pb-4 mb-4 sm:pb-0 sm:flex items-center">
+        <div class="mx-8 my-5 bg-gradient-to-r from-sky-500 to-indigo-500 text-center justify-between rounded-md px-6 pb-4 mb-4 sm:pb-0 sm:flex items-center">
             <div class="pb-2 sm:pb-0 sm:w-1/2">
                 <img src="../img/feature-img.png" alt="">
             </div>
@@ -52,7 +71,7 @@
         <!-- Features Ends -->
 
         <!-- Filter Starts -->
-        <div class="w-full flex items-center overflow-x-scroll scrollbar-hide mb-4">
+        <div class="mx-8 my-5 flex items-center overflow-x-scroll scrollbar-hide mb-4">
             <a class="flex items-center bg-white p-2 px-4 mr-2 rounded-md shadow hover:bg-[#FFC500]" href="">
                 <box-icon class="shadow-lg rounded-full" name='grid-alt'></box-icon>
                 <p class="font-semibold ml-1">All</p>
@@ -76,14 +95,13 @@
         </div>
         <!-- Filter Ends -->
 
-        <div class="flex items-center justify-between mb-4">
+        <div class="mx-8 my-5 flex items-center justify-between mb-4">
             <h1 class="text-2xl font-bold">New Arrival</h1>
             <a class="text-sm" href="#">View all</a>
         </div>
 
         <!-- Cards Starts-->
-        <div class="grid grid-cols-2 items-center justify-between overflow-hidden">
-            
+        <div class="mx-8 my-5 grid grid-cols-2 items-center justify-between overflow-hidden">
             <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/hoodie.png" alt="">
                 <div>
