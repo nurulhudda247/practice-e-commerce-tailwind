@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce with Tailwind</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../dist/output.css">
+    <!-- Boxicons -->
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/35d63e73a7.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="bg-slate-100 mx-8 my-5">
+    <!-- Nav Section Starts Here -->
+    <nav class="flex justify-between items-center mb-4">
+        <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl" href="">
+            <box-icon name='menu-alt-left'></box-icon>
+        </a>
+        <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl" href="">
+            <box-icon class="bg-white rounded-full" type='solid' name='cart-download'></box-icon>
+        </a>
+    </nav>
+
+    <!-- Nav section ends here -->
+
+    <!-- Home section starts here -->
+
+        <!-- SearchBox Starts -->
+        <div class="flex items-center relative mb-4 w-full">
+            <box-icon class="absolute ml-4" name='search-alt-2'></box-icon>
+            <input class="w-full py-3 rounded-md pl-12 focus:outline-none focus:text-black shadow-sm focus:ring-1" type="text" placeholder="Search">
+            <a class="flex items-center text-white bg-gray-900 rounded p-4 ml-1" href="">
+                <i class="fa-solid fa-bars-progress first-letter:"></i>
+            </a>
+        </div>
+        <!-- SearchBox Ends -->
+
+        <!-- Features Starts -->
+        <div class="bg-gradient-to-r from-sky-500 to-indigo-500 text-center justify-between rounded-md px-6 pb-4 sm:pb-0 sm:flex items-center">
+            <div class="pb-2 sm:pb-0 sm:w-1/2">
+                <img src="../img/feature-img.png" alt="">
+            </div>
+            <div class="feature-text text-white ml-3">
+                <p class="font-bold text-4xl">Huge sale offer</p>
+                <p class="text-lg">Get the trendy fashion at a <br> Discount of up to</p>
+                <p class="font-bold text-4xl">30% OFF</p>
+            </div>
+        </div>
+        <!-- Features Ends -->
+
+    <!-- Home section Ends Here -->
+</body>
+</html>
