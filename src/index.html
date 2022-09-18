@@ -13,34 +13,35 @@
     <script src="https://kit.fontawesome.com/35d63e73a7.js" crossorigin="anonymous"></script>
 
 </head>
-<body class="bg-slate-100">
+<body class="bg-slate-100 scrollbar-hide">
     <!-- Top Section Starts Here -->
     <div class="mx-8 my-5 flex justify-between items-center mb-4">
         <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl" href="">
             <box-icon name='menu-alt-left'></box-icon>
         </a>
-        <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl" href="">
+        <a class="bg-white rounded-full p-2 flex items-center shadow-xl hover:shadow-2xl relative" href="">
             <box-icon class="bg-white rounded-full" type='solid' name='cart-download'></box-icon>
+            <p class="font-semibold bg-red-700 px-1 rounded-full text-xs text-white absolute top-0 -right-1">2</p>
         </a>
     </div>
     <!-- Top section ends here -->
 
     <!-- Nav Starts Here -->
-    <nav class="flex items-center justify-between bg-white fixed bottom-0 left-0 w-full px-11 py-3 z-10 rounded-t-3xl">
-        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
-            <box-icon name='home-alt-2' ></box-icon>
+    <nav class="flex items-center justify-between bg-white drop-shadow-md fixed bottom-0 left-0 w-full px-16 py-3 rounded-t-3xl z-10">
+        <a class="" href="">
+            <i class="fa-solid fa-house hover:text-[#1A9BEA] text-2xl"></i>
         </a>
 
-        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
-            <box-icon name='grid-alt'></box-icon>
+        <a class="" href="">
+            <i class="fa-solid fa-envelope hover:text-[#1A9BEA] text-2xl"></i>
         </a>
 
-        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
-            <box-icon name='message-square-detail'></box-icon>
+        <a class="" href="">
+            <i class="fa-solid fa-list hover:text-[#1A9BEA] text-2xl"></i>
         </a>
 
-        <a class="px-2 py-1.5 rounded-full hover:bg-[#FFC500]" href="">
-            <box-icon name='user'></box-icon>
+        <a class="" href="">
+            <i class="fa-solid fa-user hover:text-[#1A9BEA] text-2xl"></i>
         </a>
     </nav>
     <!-- Nav Ends Here -->
@@ -101,79 +102,88 @@
         </div>
 
         <!-- Cards Starts-->
-        <div class="mx-8 my-5 grid grid-cols-2 items-center justify-between overflow-hidden">
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+        <div class="mx-8 my-5 max-h-[100vh] grid grid-cols-2 items-center justify-between overflow-scroll scrollbar-hide mb-20">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/hoodie.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-white bg-red-600 rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Hoodie</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/hat.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Beach Hat</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/couch-3.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Two Seat Couch</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/T-shirt.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">T-Shirt</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/pant.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Pant</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center  justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/shirt.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Shirt</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/shoe.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-white bg-red-600 rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Shoe</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/couch.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Two Seat Couch</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/couch-2.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Three Seat Couch</p>
                     <p>$69.69</p>
                 </div>
             </a>
-            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2" href="">
+            <a class="flex flex-col items-center justify-around font-semibold text-center bg-white rounded-lg p-2 m-2 mx-2 relative" href="">
                 <img class="bg-slate-100 rounded-lg w-56" src="../img/watch.png" alt="">
+                <i class="fa-solid fa-heart p-2 text-gray-400 bg-white rounded-full absolute top-4 right-4"></i>
                 <div>
                     <p class="text-xl font-bold mt-2">Watch</p>
                     <p>$69.69</p>
                 </div>
             </a>
         </div>
-
         <!-- Cards Ends -->
     <!-- Home section Ends Here -->
 </body>

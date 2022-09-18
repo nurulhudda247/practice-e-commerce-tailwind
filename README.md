@@ -1,1 +1,1 @@
-# e-commerce-tailwind
+this site is made for small devices only.
